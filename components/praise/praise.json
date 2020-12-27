@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_praise_praises",
+  "info": {
+    "name": "praise",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Praise",
+        "Press"
+      ],
+      "default": "Praise",
+      "required": true
+    },
+    "source_name": {
+      "type": "string",
+      "required": true
+    },
+    "source_description": {
+      "type": "string",
+      "required": true
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "cite": {
+      "type": "string"
+    }
+  }
+}

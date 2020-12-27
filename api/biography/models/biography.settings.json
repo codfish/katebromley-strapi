@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "biography",
+  "info": {
+    "name": "Biography",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "greeting": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
+    },
+    "bio": {
+      "type": "richtext"
+    },
+    "greeting_header": {
+      "type": "string"
+    },
+    "headshot": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

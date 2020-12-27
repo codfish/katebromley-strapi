@@ -1,0 +1,36 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/books",
+      "handler": "books.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/books/count",
+      "handler": "books.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/books/featured",
+      "handler": "books.findFeatured",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/books/:slug",
+      "handler": "books.findOne",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
