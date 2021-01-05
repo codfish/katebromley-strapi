@@ -86,6 +86,9 @@
       "type": "component",
       "repeatable": true,
       "component": "praise.praise"
+    },
+    "bookshop_url": {
+      "type": "string"
     }
   }
 }
