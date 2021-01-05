@@ -80,6 +80,9 @@
       "type": "component",
       "repeatable": true,
       "component": "praise.praise"
+    },
+    "libro_fm_url": {
+      "type": "string"
     }
   }
 }
