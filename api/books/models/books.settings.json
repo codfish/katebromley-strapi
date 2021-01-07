@@ -76,6 +76,12 @@
       "type": "string",
       "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
     },
+    "bookshop_url": {
+      "type": "string"
+    },
+    "walmart_url": {
+      "type": "string"
+    },
     "libro_fm_url": {
       "type": "string"
     },
@@ -86,9 +92,6 @@
       "type": "component",
       "repeatable": true,
       "component": "praise.praise"
-    },
-    "bookshop_url": {
-      "type": "string"
     }
   }
 }
