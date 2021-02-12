@@ -92,6 +92,9 @@
       "type": "component",
       "repeatable": true,
       "component": "praise.praise"
+    },
+    "isbn": {
+      "type": "string"
     }
   }
 }
