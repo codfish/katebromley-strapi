@@ -2,6 +2,9 @@
   "name": "katebromley-api",
   "private": true,
   "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  },
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
@@ -11,29 +14,25 @@
   },
   "dependencies": {
     "knex": "^0.21.14",
-    "pg": "^8.5.1",
+    "pg": "^8.6.0",
     "sqlite3": "latest",
-    "strapi": "^3.4.0",
-    "strapi-admin": "^3.4.0",
-    "strapi-connector-bookshelf": "^3.4.0",
-    "strapi-plugin-content-manager": "^3.4.0",
-    "strapi-plugin-content-type-builder": "^3.4.0",
-    "strapi-plugin-email": "^3.4.0",
-    "strapi-plugin-graphql": "^3.4.0",
-    "strapi-plugin-upload": "^3.4.0",
-    "strapi-plugin-users-permissions": "^3.4.0",
-    "strapi-provider-upload-cloudinary": "^3.4.1",
-    "strapi-utils": "^3.4.0"
+    "strapi": "^3.6.0",
+    "strapi-admin": "^3.6.0",
+    "strapi-connector-bookshelf": "^3.6.0",
+    "strapi-plugin-content-manager": "^3.6.0",
+    "strapi-plugin-content-type-builder": "^3.6.0",
+    "strapi-plugin-email": "^3.6.0",
+    "strapi-plugin-graphql": "^3.6.0",
+    "strapi-plugin-upload": "^3.6.0",
+    "strapi-plugin-users-permissions": "^3.6.0",
+    "strapi-provider-upload-cloudinary": "^3.6.0",
+    "strapi-utils": "^3.6.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
     "uuid": "8202ffd1-5511-4058-a18e-1d736c15d530"
-  },
-  "engines": {
-    "node": ">=10.0.0",
-    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
